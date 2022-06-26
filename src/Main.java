@@ -7,6 +7,17 @@ public class Main {
         String c = "World!";
 
         System.out.println(a + b + c);
+
+        int d, f, e;
+        d = 1;
+        f = 3;
+        e = d + f;
+        System.out.println(e);
+
+        d = 6;
+        f = 4;
+        int w = d*f;
+        System.out.println(w);
     }
 }
 
