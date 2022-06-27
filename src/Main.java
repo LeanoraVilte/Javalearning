@@ -1,3 +1,4 @@
+import static java.lang.Math.abs;
 import static java.lang.System.*;
 
 public class Main {
@@ -90,6 +91,17 @@ public class Main {
         System.out.println(sub);//begin 10
         System.out.println(mlt);//begin 10
         System.out.println(div);//begin 10
+
+        a = -6;
+        b = -3;
+        int sum1 = abs(a) + abs(b);
+        int sub1 = abs(a) - abs(b);
+        int mlt1 = abs(a) * abs(b);
+        int div1 = abs(a) / abs(b);
+        System.out.println(sum1);//begin 11
+        System.out.println(sub1);//begin 11
+        System.out.println(mlt1);//begin 11
+        System.out.println(div1);//begin 11
 
 
     }
