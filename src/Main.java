@@ -133,6 +133,11 @@ public class Main {
         double L1 = D1*p;
         System.out.println("Длина окружности: " + L1);//Begin 15
 
+        int x1 = 6;
+        int x2 = 9;
+        int x3 = Math.abs(x1 - x2);
+        System.out.println("Расстояние: " + x3);//begin 16
+
 
     }
 }
