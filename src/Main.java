@@ -81,12 +81,12 @@ public class Main {
         int O = (int) Math.sqrt(G);
         System.out.println("Среднегеометрическое a и b равно " + O);//begin 9 (под вопросом - некоторые значения считает неправильно)
 
-        a = 6;
+        int ax = 6;
         b = 3;
-        int sum = (a*a) + (b*b);
-        int sub = (a*a) - (b*b);
-        int mlt = (a*a) * (b*b);
-        int div = (a*a) / (b*b);
+        int sum = (ax*ax) + (b*b);
+        int sub = (ax*ax) - (b*b);
+        int mlt = (ax*ax) * (b*b);
+        int div = (ax*ax) / (b*b);
         System.out.println(sum);//begin 10
         System.out.println(sub);//begin 10
         System.out.println(mlt);//begin 10
@@ -145,6 +145,12 @@ public class Main {
         int BC = Math.abs(x6 - x5);
         int ACBC = AC + BC;
         System.out.println("Cумма отрезков: " + ACBC);//begin 17
+
+        int x7 = 7;
+        x5 = 11;
+        x6 = 9;
+        int xABC = Math.abs(x6 - x7) * Math.abs(x5 - x6);
+        System.out.println("Произведение отрезков: " + xABC);//begin 18
 
         x1 = 3;
         int y1 = 5;
