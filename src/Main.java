@@ -1,7 +1,7 @@
 import static java.lang.System.*;
 
 public class Main {
-    public static <string> void main(String[] args) {
+    public static <string, str> void main(String[] args) {
         String a = "Hello ";
         String b = "New ";
         String c = "World!";
@@ -18,6 +18,11 @@ public class Main {
         f = 4;
         int w = d*f;
         System.out.println(w);
+
+        a = "your name " +
+                " ";
+        d = 42;
+        System.out.println(a + d);
     }
 }
 
