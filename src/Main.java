@@ -48,6 +48,12 @@ public class Main {
         double L = p*D;
         System.out.println("Длина окружности равна " + L);//begin 4
 
+        l = 4;
+        int v = l*l*l;
+        s = 6* (l*l);
+        System.out.println("Длина сторон куба равна " + s);//begin 5
+        System.out.println("Объем куба равен " + v);//begin 5
+
     }
 }
 
