@@ -71,8 +71,8 @@ public class Main {
 
         a = 6;
         b = 4;
-        double mean = (a+b)/2;
-        System.out.println("Среднеарифмтическое a и b равно " + mean);//begin 8
+        int mean = (a+b)/2;
+        System.out.println("Среднеарифмтическое a и b равно " + mean);//begin 8 - в java 5/2 будет 2 (NotaBene!!!)
     }
 }
 
