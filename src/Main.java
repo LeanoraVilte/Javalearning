@@ -154,8 +154,8 @@ public class Main {
         int l1 = Math.abs(y1-y2);
         int lp = w1*2 + l1*2;
         int sp = w1*l1;
-        System.out.println("Длина периметра: " + lp);//begin 18
-        System.out.println("Площадь: " + sp);//begin 18
+        System.out.println("Длина периметра: " + lp);//begin 19
+        System.out.println("Площадь: " + sp);//begin 19
 
 
     }
