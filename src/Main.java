@@ -43,6 +43,11 @@ public class Main {
         System.out.println("Площадь прямоугольника равна " + s);
         System.out.println("Длина длин сторон прямоугольника равна " + length);//begin 3
 
+        double p = 3.14;
+        int D = 3;
+        double L = p*D;
+        System.out.println("Длина окружности равна " + L);//begin 4
+
     }
 }
 
