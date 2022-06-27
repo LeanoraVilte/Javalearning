@@ -68,6 +68,11 @@ public class Main {
         double S = p*(r*r);
         System.out.println("Длина окружности равна " + L);//begin 7
         System.out.println("Площадь круга равна " + S);//begin 7
+
+        a = 6;
+        b = 4;
+        double mean = (a+b)/2;
+        System.out.println("Среднеарифмтическое a и b равно " + mean);//begin 8
     }
 }
 
