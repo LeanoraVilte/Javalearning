@@ -22,7 +22,7 @@ public class Main {
         a = "your name " +
                 " ";
         d = 42;
-        System.out.println(a + d);//контакнтенация: строка + число
+        System.out.println(a + d);//контантенация: строка + число
     }
 }
 
