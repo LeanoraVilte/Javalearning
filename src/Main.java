@@ -103,6 +103,14 @@ public class Main {
         System.out.println(mlt1);//begin 11
         System.out.println(div1);//begin 11
 
+        int tr0 = 3;
+        int tr1 = 4;
+        double gip = Math.sqrt((tr0*tr0)+(tr1*tr1));
+        double per = tr0 + tr1 + gip;
+        System.out.println(gip);//begin 12
+        System.out.println(per);//begin 12
+
+
 
     }
 }
