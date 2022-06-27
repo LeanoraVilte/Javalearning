@@ -119,7 +119,12 @@ public class Main {
         System.out.println(s1);//для контроля
         System.out.println(s2);//для контроля
 
-
+        double r1 = L/p/2;
+        double sr1 = p * (r1*r1);
+        System.out.println(r1);//begin 14
+        System.out.println(sr1);//begin 14
+        double c1 = sr1/25;
+        System.out.println("Контроль: " + c1);//для контроля
 
 
     }
