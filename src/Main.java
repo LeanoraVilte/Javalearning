@@ -126,6 +126,13 @@ public class Main {
         double c1 = sr1/25;
         System.out.println("Контроль: " + c1);//для контроля
 
+        double S1 = 79.5;
+        double S0 = S1/p;
+        double D1 = Math.sqrt(S0)*2;
+        System.out.println("Диаметр: " + D1);//Begin 15
+        double L1 = D1*p;
+        System.out.println("Длина окружности: " + L1);//Begin 15
+
 
     }
 }
