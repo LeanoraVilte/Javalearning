@@ -30,11 +30,19 @@ public class Main {
 
         int l = 9;
         int j = 2;
-        System.out.println("L в квадрате равно " + Math.pow(l, j));//begin2 - второй вариант
+        System.out.println("Площадь квадрата равна " + Math.pow(l, j));//begin2 - второй вариант
 
-        int begin1 = 100;
-        int length = begin1*4;
-        System.out.println(length);
+        int r = 100;
+        int length = r*4;
+        System.out.println("Длина сторон квадрата равна " + length);//begin 1
+
+        l = 5;
+        j = 10;
+        int s = l*j;
+        length = (l + j)*2;
+        System.out.println("Площадь прямоугольника равна " + s);
+        System.out.println("Длина длин сторон прямоугольника равна " + length);//begin 3
+
     }
 }
 
