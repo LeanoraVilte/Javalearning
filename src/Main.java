@@ -24,9 +24,17 @@ public class Main {
         d = 42;
         System.out.println(a + d);//контантенация: строка + число
 
-        var x = 8;
-        var y = x + x;
-        System.out.println(y);//инициализация переменной через var
+        int x = 8;
+        int y = x*x;
+        System.out.println(y);//begin2 - первый вариант
+
+        int l = 9;
+        int j = 2;
+        System.out.println("L в квадрате равно " + Math.pow(l, j));//begin2 - второй вариант
+
+        int begin1 = 100;
+        int length = begin1*4;
+        System.out.println(length);
     }
 }
 
