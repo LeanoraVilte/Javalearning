@@ -62,6 +62,12 @@ public class Main {
         s = 2*(a*b + b*c + a*c);
         System.out.println("Длина сторон параллелипипеда равна " + s);//begin 6
         System.out.println("Объем параллелипипеда равен " + v);//begin 6
+
+        r = 5;
+        L = p*(r*2);
+        double S = p*(r*r);
+        System.out.println("Длина окружности равна " + L);//begin 7
+        System.out.println("Площадь круга равна " + S);//begin 7
     }
 }
 
