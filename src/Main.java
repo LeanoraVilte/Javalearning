@@ -73,6 +73,15 @@ public class Main {
         b = 4;
         int mean = (a+b)/2;
         System.out.println("Среднеарифмтическое a и b равно " + mean);//begin 8 - в java 5/2 будет 2 (NotaBene!!!)
+
+        int T = 2;
+        int Y = 3;
+        int G = T * Y;
+        int O = (int) Math.sqrt(G);
+        System.out.println("Среднегеометрическое a и b равно " + O);//begin 9 (под вопросом - некоторые значения считает неправильно)
+
+
+
     }
 }
 
