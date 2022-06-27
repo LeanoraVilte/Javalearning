@@ -173,6 +173,48 @@ public class Main {
         //System.out.println(lxy1);//контроль2
         double lxy2 = Math.sqrt(lxy0 + lxy1);
         System.out.println(lxy2);//begin 20
+
+
+        //begin 21 в данном примере мы не будем проверять, что треугольник это треугольник, а будем использовать Пифагову тройку 3, 4, 5
+         px = 1;
+         py = 1;
+         px1 = 5;
+         py1 = 4; //A (px, py), B (px1, py), C (px1, py1)
+
+        //AB
+        double lxy3 = (px1-px)*(px1-px);
+        //System.out.println(lxy3);//контроль1
+        double lxy4 = (py-py)*(py-py);
+        //System.out.println(lxy4);//контроль2
+        double lxy5 = Math.sqrt(lxy3 + lxy4);
+        System.out.println(lxy5);
+
+        //BC
+        double lxy6 = (px1-px1)*(px1-px1);
+        //System.out.println(lxy6);//контроль1
+        double lxy7 = (py1-py)*(py1-py);
+        //System.out.println(lxy7);//контроль2
+        double lxy8 = Math.sqrt(lxy6 + lxy7);
+        System.out.println(lxy8);
+
+        //CA
+        double lxy9 = (px1-px)*(px1-px);
+        //System.out.println(lxy9);//контроль1
+        double lxy10 = (py1-py)*(py1-py);
+        //System.out.println(lxy10);//контроль2
+        double lxy11 = Math.sqrt(lxy9 + lxy10);
+        System.out.println(lxy11);
+
+        double p1 = lxy5 + lxy8 + lxy11;//периметр
+        double p2 = (lxy5 + lxy8 + lxy11)/2;
+        double p3 = Math.sqrt(p2*(p2-lxy5)*(p2-lxy8)*(p2-lxy11));//площадь
+        System.out.println(p1);
+        System.out.println(p3);
+
+
+
+
+
     }
 }
 
