@@ -2,11 +2,11 @@ import static java.lang.System.*;
 
 public class Main {
     public static <string, str> void main(String[] args) {
-        String a = "Hello ";
-        String b = "New ";
-        String c = "World!";
+        String A = "Hello ";
+        String B = "New ";
+        String C = "World!";
 
-        System.out.println(a + b + c);//конкантенация строк
+        System.out.println(A + B + C);//конкантенация строк
 
         int d, f, e;
         d = 1;
@@ -19,10 +19,10 @@ public class Main {
         int w = d*f;
         System.out.println(w);//математика: умножение
 
-        a = "your name " +
+        A = "your name " +
                 " ";
         d = 42;
-        System.out.println(a + d);//контантенация: строка + число
+        System.out.println(A + d);//контантенация: строка + число
 
         int x = 8;
         int y = x*x;
@@ -54,6 +54,14 @@ public class Main {
         System.out.println("Длина сторон куба равна " + s);//begin 5
         System.out.println("Объем куба равен " + v);//begin 5
 
+        int a, b, c;
+        a = 2;
+        b = 3;
+        c = 5;
+        v = a*b*c;
+        s = 2*(a*b + b*c + a*c);
+        System.out.println("Длина сторон параллелипипеда равна " + s);//begin 6
+        System.out.println("Объем параллелипипеда равен " + v);//begin 6
     }
 }
 
