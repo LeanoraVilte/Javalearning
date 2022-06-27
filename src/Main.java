@@ -146,6 +146,16 @@ public class Main {
         int ACBC = AC + BC;
         System.out.println("Cумма отрезков: " + ACBC);//begin 17
 
+        x1 = 3;
+        int y1 = 5;
+        x2 = 8;
+        int y2 = 1;
+        int w1 = Math.abs(x2-x1);
+        int l1 = Math.abs(y1-y2);
+        int lp = w1*2 + l1*2;
+        int sp = w1*l1;
+        System.out.println("Длина периметра: " + lp);//begin 17
+        System.out.println("Площадь: " + sp);//begin 17
 
 
     }
