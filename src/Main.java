@@ -110,6 +110,16 @@ public class Main {
         System.out.println(gip);//begin 12
         System.out.println(per);//begin 12
 
+        int R1 = 3;
+        int R2 = 2;
+        double s1 = (R1*2)*p;
+        double s2 = (R2*2)*p;
+        double s3 = s1 - s2;
+        System.out.println(s3);//begin 13
+        System.out.println(s1);//для контроля
+        System.out.println(s2);//для контроля
+
+
 
 
     }
