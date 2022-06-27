@@ -135,7 +135,7 @@ public class Main {
 
         int x1 = 6;
         int x2 = 9;
-        int x3 = Math.abs(x1 - x2);
+        int x3 = Math.abs(x2 - x1);
         System.out.println("Расстояние: " + x3);//begin 16
 
 
