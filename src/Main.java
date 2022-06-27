@@ -163,7 +163,16 @@ public class Main {
         System.out.println("Длина периметра: " + lp);//begin 19
         System.out.println("Площадь: " + sp);//begin 19
 
-
+        int px = 8;
+        int py = 2;
+        int px1 = 10;
+        int py1 = 3;
+        double lxy0 = (px1-px)*(px1-px);
+        //System.out.println(lxy0);//контроль1
+        double lxy1 = (py1-py)*(py1-py);
+        //System.out.println(lxy1);//контроль2
+        double lxy2 = Math.sqrt(lxy0 + lxy1);
+        System.out.println(lxy2);//begin 20
     }
 }
 
