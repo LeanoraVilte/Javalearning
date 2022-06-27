@@ -23,6 +23,10 @@ public class Main {
                 " ";
         d = 42;
         System.out.println(a + d);//контантенация: строка + число
+
+        var x = 8;
+        var y = x + x;
+        System.out.println(y);//инициализация переменной через var
     }
 }
 
