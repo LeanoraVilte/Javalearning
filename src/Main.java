@@ -136,7 +136,16 @@ public class Main {
         int x1 = 6;
         int x2 = 9;
         int x3 = Math.abs(x2 - x1);
-        System.out.println("Расстояние: " + x3);//begin 16
+        System.out.println("Расстояние: " + x3);//begin 16 - длина отрезка
+
+        int x4 = 7;
+        int x5 = 9;
+        int x6 = 12;
+        int AC = Math.abs(x6 - x4);
+        int BC = Math.abs(x6 - x5);
+        int ACBC = AC + BC;
+        System.out.println("Cумма отрезков: " + ACBC);//begin 17
+
 
 
     }
