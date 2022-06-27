@@ -80,6 +80,16 @@ public class Main {
         int O = (int) Math.sqrt(G);
         System.out.println("Среднегеометрическое a и b равно " + O);//begin 9 (под вопросом - некоторые значения считает неправильно)
 
+        a = 6;
+        b = 3;
+        int sum = (a*a) + (b*b);
+        int sub = (a*a) - (b*b);
+        int mlt = (a*a) * (b*b);
+        int div = (a*a) / (b*b);
+        System.out.println(sum);//begin 10
+        System.out.println(sub);//begin 10
+        System.out.println(mlt);//begin 10
+        System.out.println(div);//begin 10
 
 
     }
