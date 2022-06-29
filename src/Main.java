@@ -219,6 +219,32 @@ public class Main {
         System.out.println("New A = " + a + ", new B = " + b);//Begin 22
 
 
+        a = 3;
+        b = 8;
+        c = 0;
+        int temp = c;
+        System.out.println("A = " + a + ", B = " + b + ", C = " + c);//show variables
+        c = b;
+        b = a;
+        a = temp;
+        System.out.println("New A = " + a + ", new B = " + b + ", New C = " + c);//Begin 23
+
+
+        a = 3;
+        b = 8;
+        c = 0;
+        int temp1 = c;
+        int temp2 = b;
+        System.out.println("A = " + a + ", B = " + b + ", C = " + c);//show variables
+        c = a;
+        b = temp1;
+        a = temp2;
+        System.out.println("New A = " + a + ", new B = " + b + ", New C = " + c);//Begin 24
+
+
+
+
+
 
 
     }
