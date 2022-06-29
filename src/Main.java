@@ -248,6 +248,14 @@ public class Main {
         y = x2 - x3 - 7;
         System.out.println(y);//begin 25
 
+        x = 5;
+        int x0 = x-3
+        x1 = (int) Math.pow(x0, 6);
+        x2 = 4*x1;//first
+        x3 = (int) Math.pow(x0, 3);
+        x4 = 7*x3;//second
+        y = x2 - x4 + 2;
+        System.out.println(y);//begin 26
     }
 }
 
