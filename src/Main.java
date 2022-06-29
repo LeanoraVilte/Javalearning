@@ -213,7 +213,7 @@ public class Main {
 
         a = 3;
         b = 8;
-        System.out.println("A = " + a + ", B = " + b);
+        System.out.println("A = " + a + ", B = " + b);//show variables
         a = b;
         b = a;
         System.out.println("New A = " + a + ", new B = " + b);//Begin 22
