@@ -211,6 +211,12 @@ public class Main {
         System.out.println(p1);
         System.out.println(p3);
 
+        a = 3;
+        b = 8;
+        System.out.println("A = " + a + ", B = " + b);
+        a = b;
+        b = a;
+        System.out.println("New A = " + a + ", new B = " + b);//Begin 22
 
 
 
