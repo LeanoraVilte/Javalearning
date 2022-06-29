@@ -241,11 +241,12 @@ public class Main {
         a = temp2;
         System.out.println("New A = " + a + ", new B = " + b + ", New C = " + c);//Begin 24
 
-
-
-
-
-
+        x = 2;
+        x1 = (int) Math.pow(x, 6);
+        x2 = 3*x1;//первый член
+        x3 = 6 * (int) Math.pow(x,2);
+        y = x2 - x3 - 7;
+        System.out.println(y);//begin 25
 
     }
 }
