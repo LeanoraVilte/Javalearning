@@ -249,7 +249,7 @@ public class Main {
         System.out.println(y);//begin 25
 
         x = 5;
-        int x0 = x-3
+        int x0 = x-3;
         x1 = (int) Math.pow(x0, 6);
         x2 = 4*x1;//first
         x3 = (int) Math.pow(x0, 3);
